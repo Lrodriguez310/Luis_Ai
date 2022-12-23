@@ -8,13 +8,17 @@
 }
 
 body {
-  background: #343541;
+  background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)),url(./assets/ai.jpg);
+	background-position: center;
+	background-size: cover;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)),url(./assets/ai.jpg);
+	background-position: 30% 30%;
+	background-size: cover;
 
   display: flex;
   flex-direction: column;
